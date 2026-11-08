@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta name="theme-color" content="#F3ECE0">
   <title>Datenschutz · Verdauungstagebuch</title>
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
@@ -64,23 +65,35 @@
   <h2>4. Abend-Erinnerung</h2>
   <p>Wenn du Mitteilungen erlaubst, plant die iPhone-App die Erinnerung an deinen Tagesrückblick direkt auf deinem Gerät. Dafür wird nichts an uns oder an einen Push-Dienst übertragen. In der Web-Version kannst du stattdessen eine Kalender-Datei herunterladen und selbst in deinen Kalender übernehmen.</p>
 
-  <h2>5. iPhone-App, App Store und TestFlight</h2>
+  <h2>5. App-Sperre mit Face ID</h2>
+  <p>In der iPhone-App kannst du unter „Mehr“ eine App-Sperre einschalten. Dann fragt die App beim Öffnen – und wenn sie länger als 30 Sekunden im Hintergrund war – nach Face ID, Touch ID oder deinem Gerätecode. Die Erkennung übernimmt dein iPhone selbst: Dein Gesicht, dein Fingerabdruck oder dein Code werden weder an die App noch an uns übermittelt. Die App erfährt nur, ob die Prüfung geklappt hat.</p>
+
+  <h2>6. Sicherheit</h2>
+  <p>Damit deine Einträge geschützt bleiben, ist die App so gebaut:</p>
+  <ul>
+    <li>Sie baut keine Verbindungen zu Servern auf und lädt keine fremden Inhalte nach. Eine Sicherheitsrichtlinie (Content Security Policy) verhindert, dass Daten nach außen geschickt werden.</li>
+    <li>Alle gespeicherten und wiederhergestellten Daten werden beim Laden geprüft, damit auch eine manipulierte Sicherungsdatei keinen Schaden anrichten kann.</li>
+    <li>In der iPhone-App liegen die Daten im geschützten Bereich der App, auf den andere Apps nicht zugreifen können.</li>
+  </ul>
+  <p>Für den Schutz deines Geräts selbst – Gerätecode, Updates, verschlüsselte Backups – bist du verantwortlich. Exportierte Dateien wie PDF, CSV oder Sicherungen sind nicht verschlüsselt; behandle sie so vertraulich wie das Tagebuch selbst.</p>
+
+  <h2>7. iPhone-App, App Store und TestFlight</h2>
   <p>Die iPhone-App wird über Apple bereitgestellt. Beim Herunterladen, bei Käufen und beim Testen über TestFlight verarbeitet <strong>Apple</strong> Daten nach seinen eigenen Datenschutzbestimmungen (<a href="https://www.apple.com/de/legal/privacy/" rel="noopener">apple.com/de/legal/privacy</a>).</p>
   <p>Nimmst du an einem <strong>TestFlight-Test</strong> teil, stellt Apple uns als Anbieter Angaben zur Verfügung, die für den Test nötig sind: deinen Namen und deine E-Mail-Adresse aus der Einladung, ob und wann du die App installiert hast, Geräte- und Systemversion sowie – falls du das in TestFlight erlaubst bzw. absendest – Absturzberichte, Screenshots und Feedback. Wir nutzen diese Angaben nur, um die App zu testen und zu verbessern (Rechtsgrundlage: Art. 6 Abs. 1 lit. b und f DSGVO). Deine Tagebuch-Einträge sind darin nicht enthalten.</p>
   <p>In der Beta-Version ist die App kostenlos. Sollten später Käufe möglich sein, laufen sie über Apple; wir erhalten dabei keine Zahlungsdaten.</p>
 
-  <h2>6. Web-Version und Hosting</h2>
+  <h2>8. Web-Version und Hosting</h2>
   <p>Die Web-Version wird bei <strong>Netlify</strong> (Netlify, Inc., USA) gehostet. Beim Aufruf verarbeitet Netlify technisch notwendige Verbindungsdaten wie IP-Adresse, Zeitpunkt, aufgerufene Datei und Browser-Kennung, um die Seite auszuliefern und vor Missbrauch zu schützen (Art. 6 Abs. 1 lit. f DSGVO). Netlify ist nach dem EU-US Data Privacy Framework zertifiziert. Deine Tagebuch-Einträge werden dabei nicht übertragen.</p>
   <p>Schriften und alle anderen Bestandteile werden von dieser Seite selbst geladen – es werden keine Dienste Dritter wie Google Fonts oder Analyse-Tools eingebunden.</p>
 
-  <h2>7. Löschen</h2>
+  <h2>9. Löschen</h2>
   <p>Unter „Mehr“ → „Alles löschen &amp; neu beginnen“ entfernst du alle Einträge von deinem Gerät. Ebenso werden sie gelöscht, wenn du die App löschst bzw. die Website-Daten in deinem Browser entfernst. Da wir keine Kopie haben, lässt sich das nicht rückgängig machen – sichere dir vorher eine Kopie, wenn du sie behalten möchtest.</p>
 
-  <h2>8. Deine Rechte</h2>
+  <h2>10. Deine Rechte</h2>
   <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO). Da deine Einträge nur auf deinem Gerät liegen, kannst du diese Rechte dort direkt selbst ausüben. Für Daten aus TestFlight oder Fragen wende dich an die oben genannte Adresse.</p>
   <p>Außerdem kannst du dich bei der <strong>Österreichischen Datenschutzbehörde</strong> beschweren: Barichgasse 40–42, 1030 Wien, <a href="https://www.dsb.gv.at" rel="noopener">dsb.gv.at</a>.</p>
 
-  <h2>9. Änderungen</h2>
+  <h2>11. Änderungen</h2>
   <p>Ändert sich etwas an der App, das den Datenschutz betrifft, passen wir diese Erklärung an. Es gilt die jeweils hier veröffentlichte Fassung.</p>
 
 </main>
